@@ -1,0 +1,17 @@
+{
+	"name": "samjarrett/hue",
+	"type": "library",
+	"description": "",
+	"keywords": [],
+	"license": "MIT",
+
+	"require": {
+		"guzzle/guzzle": "~3.9"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Hue\\": "src/"
+		}
+	}
+}
